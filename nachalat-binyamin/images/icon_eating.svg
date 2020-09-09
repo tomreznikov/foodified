@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_eating</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-carmelmarket" transform="translate(-929.000000, -260.000000)" fill="#4C3EFF" fill-rule="nonzero">
+            <g id="Content" transform="translate(188.000000, 162.000000)">
+                <g id="icon_note" transform="translate(740.000000, 11.000000)">
+                    <g id="info" transform="translate(0.150849, 0.000000)">
+                        <path d="M14.6347427,91.8057576 C14.3765977,94.0099985 12.6212116,96.2655007 10.9174544,97.3932518 L10.9174544,98.8285714 L4.56708685,98.8285714 L4.56708685,97.3932518 C1.83074961,95.5991023 -0.286039578,91.0368364 1.52097558,91.0368364 L2.24378164,91.0368364 C3.89590979,85.6543879 11.6402605,85.6543879 13.2407596,91.0368364 C13.6537916,91.0368364 14.7896297,90.8830522 14.6347427,91.8057576 Z M4.92848988,89.2426869 C4.36057083,89.7040396 3.89590979,90.3191766 3.63776477,91.0368364 L11.8467765,91.0368364 C10.7625674,88.26872 7.25179509,87.397276 4.92848988,89.2426869 Z" id="icon_eating"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

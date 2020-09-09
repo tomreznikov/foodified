@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="9px" viewBox="0 0 6 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_back</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="04-carmelmarket" transform="translate(-189.000000, -101.000000)" stroke="#4C3EFF" stroke-width="2">
+            <g id="Top-nav" transform="translate(190.000000, 95.000000)">
+                <g id="back" transform="translate(0.000000, 7.000000)">
+                    <polyline id="Path-21" points="4 0 0 3.5 4 7"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

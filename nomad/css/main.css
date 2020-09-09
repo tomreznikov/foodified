@@ -1,0 +1,344 @@
+.container {
+    display: flex;
+    
+}
+
+.left-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    height: 100%;
+}
+
+.restaurant-info {
+    width: 332px;
+    margin-top: 95px;
+    
+}
+
+.navigation-box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #4C3EFF; 
+    padding-bottom: 8px;
+    align-items: flex-end;
+    
+}
+
+h1 {
+    font-family: ‘Libre Baskerville’, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 65px;
+    color: #0F1762;
+}
+
+h2 {
+    font-family: ‘Libre Baskerville’, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+h1.resturant-title {
+    color: #0F1762;
+    margin-top: 30px;
+    line-height: 75px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: ‘Libre Baskerville’, serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 28px;
+    margin-bottom: auto;
+    color: #0F1762;
+        
+}
+
+.address {
+    font-family:  'ProximaNova', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px
+    
+}
+
+.right-side {
+    width: 50%;
+}
+
+.restaurant-photo {
+    height: 100%;
+    background-size:cover;
+}
+
+#maman-pic {
+    background-image: url(../images/maman_interior.jpg);
+}
+
+#pecora-pic {
+    background-image: url(../images/laPecoraBianca.jpg);
+}
+
+#smith-pic {
+    background-image: url(../images/smith.jpg);
+    
+}
+
+
+.tags-box {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 40px;
+}
+
+.back-link {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 14px;
+    color: #4C3EFF;
+    text-decoration: none;
+}
+
+.back-link {
+    background-image: url(../images/icon_back.png);
+    background-repeat: no-repeat;
+    background-size: 6px;
+    background-position: 0px 4px;
+    padding-left: 11px;
+}
+
+.back-link:hover {
+    color: #00b189;
+}
+
+.tag {
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-size: 14px;
+    color: #585858;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+    margin-bottom: 40px;
+}
+
+.slider-img {
+    background-image: url(../images/cheap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    padding-right: 8px;
+}
+
+.slider-img#slow {
+    background-image: url(../images/icon_slow.svg);
+}
+.slider-img#fast {
+    background-image: url(../images/icon_fast.svg);
+}
+.slider-img#expensive {
+    background-image: url(../images/icon_expensive.svg);
+}
+.slider-img#low {
+    background-image: url(../images/icon_no_room.svg);
+}
+.slider-img#high {
+    background-image: url(../images/icon_room.svg);
+    width: 36px;
+    padding-right: 0px;
+
+}
+
+.circle {
+    height: 6px;
+    width: 6px;
+    background-color: #D8D8D8;
+    border-radius: 20px;
+}
+
+#circle-highlight {
+    height: 6px;
+    width: 6px;
+    background-color: #4C3EFF;
+}
+
+/* Neighborhood page */
+
+.header-bg {
+    width: 100%;
+    background-color: #0F1762;
+    color: #fff;
+}
+
+.header {
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 100px 300px;
+    margin: auto;
+}
+
+.area-nav {
+    width: 30%;
+}
+
+h1.area-name {
+    color: #fff;
+}
+
+.area-description {
+    padding-top: 70px;
+    width: 30%;
+    color: #fff;
+}
+
+.area-info {
+    padding-top: 84px;
+    width: 30%;
+}
+
+.info-line {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.info-icon {
+    margin-right: 12px;
+}
+
+.info-text {
+    margin: 0px;
+    color: #fff;
+}
+
+.cover-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.list-items-warp {
+  display: flex;
+  justify-content: space-between;
+  margin: -200px auto;
+  flex-wrap: wrap;
+  max-width: 1060px;
+  padding: 0 100px 0 100px;
+}
+
+.list-item {
+  width: 30%;
+  height: 400px;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.list-item-title h3 {
+  font-size: 45px;
+  text-align: center;
+  padding: 25px 25px 11px 25px;
+  color: #0F1762;
+}
+
+.divider {
+  background-color: #4C3EFF;
+  width: 30px;
+  height: 4px;
+  margin: 0 auto 25px auto;
+}
+
+.tags-box2 {
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-item-spacer {
+  width: 320px;
+  height: 400px;
+}
+
+.box-feather {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #FFFFFF 100%);
+  height: 48px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/*responsiveness*/
+
+@media screen and (max-width: 1024px) {
+    .list-items-warp {
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+  }
+      .list-item {
+      height: 400px;
+      width: 80%;
+      margin: auto;
+      max-width: 350px;
+      margin-bottom: 40px;
+  }
+@media screen and (max-width: 768px) {
+    .list-items-warp {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .list-item {
+      height: 400px;
+      width: 80%;
+      margin: auto;
+      max-width: 350px;
+      margin-bottom: 40px;
+    }
+    .header {
+      flex-direction: column;
+      padding-right: 0px;
+      padding-left: 0px;
+
+    }
+   .area-nav, .area-description, .area-info {
+        width: 80%;
+        max-width: 350px;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .area-description, .area-info {
+       padding-top: 50px;
+    }
+}

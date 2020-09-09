@@ -1,0 +1,382 @@
+@font-face {
+font-family: ProximaNova;
+src: url(https://web-assets.riskified.com/webfonts/29923C_7_0.ttf);
+}
+@font-face {
+font-family: ProximaNova;
+src: url(https://web-assets.riskified.com/webfonts/29923C_8_0.ttf);
+font-weight: bold;
+}
+
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.right-image-kovshim {
+    background-image: url(../images/DSC5782.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.right-image-Balinjera {
+    background-image: url(../images/balingera.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+}
+
+.right-image-hummus {
+    background-image: url(../images/shlomo-doron.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+}
+
+.resturant-info {
+    width: 322px;
+    margin-top: 120px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #4C3EFF; 
+    padding-bottom: 8px;
+    align-items: flex-end;
+}
+
+.tags-wrap{
+    display: flex;
+}
+
+h1 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 55px;
+}
+
+h1.resturant-title {
+    color: #0F1762;
+    margin-top: 30px;
+    line-height: 75px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 46px;
+    line-height: normal;
+    color: #000000;
+    text-align: center;
+    color: #0F1762;
+}
+
+p {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 28px;
+    margin-bottom: auto;
+}
+
+p.description {
+    color: #0F1762;
+}
+
+.back-link {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 14px;
+    color: #4C3EFF;
+    text-decoration: none;
+}
+
+.back-link {
+    background-image: url(../images/icon_back.png);
+    background-repeat: no-repeat;
+    background-size: 6px;
+    background-position: 0px 4px;
+    padding-left: 11px;
+}
+
+.back-link:hover {
+    color: #00b189;
+}
+
+
+.tags-wrap {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tag {
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-size: 14px;
+    color: #585858;
+}
+
+.slider-wrap {
+    margin-top: 53px;
+}
+.slider-inner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.slider-dot {
+    background-color: #D8D8D8;
+    height: 6px;
+    width: 6px;
+    border-radius: 4px;
+}
+
+#special-dot {
+    background-color: #4C3EFF;
+    /*border: 5px solid #a49efe;*/
+    border-radius: 15px;
+}
+
+.container-area {
+    width: 100%;
+}
+
+.header-bg {
+    width: 100%;
+    background-color: #0F1762;
+}
+
+.header {
+    display: flex;
+    max-width: 1060px;
+    justify-content: space-between;
+    color: #fff;
+    padding: 95px 100px 250px 100px;
+    margin: auto;
+}
+
+.area-nav {
+    width: 30%;
+}
+
+.description-wrap {
+    width: 30%;
+    margin-top: 90px;
+}
+
+.area-description {
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+}
+
+.area-info {
+    width: 30%;
+    margin-top: 90px;
+}
+
+.single-info {
+    display: flex;
+}
+
+.info-icon {
+    padding-right: 12px;
+    align-self: baseline;
+    padding-top: 4px;
+    
+}
+
+.card-wrap {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1060px;
+    margin: -200px auto;
+    padding: 0px 100px 300px 100px;
+}
+
+.card {
+    width: 30%;
+    height: 400px;
+    background-color: #ffff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin-top: -40px;
+}
+
+.card-image {
+    height: 50%;
+    background-image: url(../images/DSC5782.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#image-balinjera {
+    background-image: url(../images/balingera.jpg);
+}
+
+#image-Shlomo-Doron {
+    background-image: url(../images/shlomo-doron.jpg);
+    background-position: top;
+}
+.divider {
+    background-color: #4c3eef;
+    height: 4px;
+    width: 30px;
+    margin-top: -20px;
+}
+
+.card-info .tags-wrap {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.card-gradient {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #FFFFFF 100%);
+  height: 48px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+/*responsiveness*/
+
+/*rest page*/
+
+@media screen and (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .left-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    
+    .right-side {
+        width: 100%;
+        position: relative;
+        height: 200px;
+        overflow: hidden;
+        display: flex;
+    }
+    
+    .right-image-kovshim {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    .right-image-Balinjera {
+      height: auto;
+      width: 100%;
+      background-size: cover;
+      background-position: bottom;  
+    }
+    
+    .right-image-hummus {
+      height: auto;
+      width: 100%;
+      background-size: cover;
+      background-position:top  
+    }
+    .resturant-info {
+        width: 322px;
+        margin-top: 50px;
+    }
+}
+
+/*neighborhood page*/
+
+@media screen and (max-width: 768px) { 
+    .card-wrap {
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        align-items: center;
+        flex-wrap: initial;
+    }
+    .card {
+      height: 400px;
+      width: 100%;
+      margin-bottom: 60px;
+      max-width: 600px;
+      min-width: 300px;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-bg {
+     width: 100%;
+    }
+
+   .area-nav, .area-description, .description-wrap, .area-info {
+        width: 100%;
+        max-width: 600px;
+        min-width: 300px;
+        margin: auto auto 10px auto;
+    }
+    .description-wrap, .area-info {
+       padding-bottom: 40px;
+    }
+    .single-info {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .card {
+      width: 45%;
+    }
+    .card-wrap {
+      padding: 0px 100px 300px 100px;
+    }
+}

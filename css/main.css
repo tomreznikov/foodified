@@ -1,0 +1,411 @@
+@font-face {
+    font-family: ProximaNova; 
+    src: url(https://web-assets.riskified.com/webfonts/29923C_7_0.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova; 
+    src: url(https://web-assets.riskified.com/webfonts/29923C_8_0.ttf);
+    font-weight: bold;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.rest-page {
+    max-width: 1260px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.rest-right {
+   width: 50%; 
+}
+.rest-viz {
+    height: calc(100% - 10px);
+    background-image: url(../images/place-bushwick.jpg);
+    background-size: cover;
+}
+
+.rest-left {
+    width: 50%;
+}
+
+.rest-info {
+    width: 322px;
+    margin-top: 100px;
+}
+
+.rest-top-bar {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 4px solid #4c3eff;
+    padding-bottom: 7px;
+}
+
+.rest-top-bar a {
+    color: #4c3eff;
+    text-decoration: none;
+    padding-left: 12px;
+    background-image: url(../images/icon_back.png);
+    background-size: 6px;
+    background-repeat: no-repeat;
+    background-position: 0px, 3px;
+}
+
+.rest-top-bar a:hover {
+    color: #00b189;
+}
+
+.homepage-nav {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 4px solid #4c3eff;
+    padding-bottom: 7px;
+}
+
+.homepage-nav a {
+    text-decoration: none;
+    margin-right: 18px;
+    color: #0F1762;
+    opacity: 0.5;
+}
+
+.homepage-nav a:hover {
+    color: #4c3eff;
+    opacity: 1;
+}
+
+.homepage-nav span {
+    margin-right: 18px;
+    color: #0F1762;
+}
+
+h1 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #0F1762;
+    font-size: 65px;
+    line-height: 75px;
+}
+
+.rest-top-bar {
+    margin-top: 220px;
+}
+
+p.rest-description {
+    color: #0F1762;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-bottom: 60px
+}
+
+.tags-group {
+    margin-bottom: 40px;
+}
+
+.tag-item {
+    display: inline-block;
+    width: auto;
+    color: #585858;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #F1F1F1;
+    padding: 4px 10px;
+    margin: 0px 4px 10px 0px;
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+    margin-bottom: 40px;
+}
+
+.slider-img {
+    background-image: url(../images/cheap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    padding-right: 8px;
+}
+
+.slider-img#slow {
+    background-image: url(../images/icon_slow.svg);
+}
+.slider-img#fast {
+    background-image: url(../images/icon_fast.svg);
+}
+.slider-img#expensive {
+    background-image: url(../images/icon_expensive.svg);
+}
+.slider-img#low {
+    background-image: url(../images/icon_no_room.svg);
+}
+.slider-img#high {
+    background-image: url(../images/icon_room.svg);
+    width: 36px;
+    padding-right: 0px;
+
+}
+
+.circle {
+    height: 6px;
+    width: 6px;
+    background-color: #D8D8D8;
+    border-radius: 20px;
+}
+
+#circle-highlight {
+    height: 6px;
+    width: 6px;
+    background-color: #4C3EFF;
+}
+
+/* Neighberhood page */
+.neighberhood {
+    margin: auto;
+}
+
+.top-fold {
+    background: #0F1762;
+    color: #FFFFFF;
+}
+
+.top-fold-content {
+    max-width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    padding: 90px 20px 200px 20px;
+}
+
+.area-name, .area-description, .area-info-icons {
+    width: 30%;
+    margin-bottom: 70px;
+}
+
+.area-description, .area-info-icons {
+   margin-top: 70px;
+}
+
+.top-fold-content h1 {
+    color: #FFFFFF;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+p.area-icon-item {
+    margin-top: 0px;
+    padding-left: 20px;
+    background-image: url(../images/icon_distance.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+}
+
+#icon-warn {
+    background-image: url(../images/icon_note.svg);
+}
+#icon-food {
+    background-image: url(../images/icon_eating.svg);
+}
+
+.cards {
+    max-width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: -200px;
+}
+
+.card {
+  height: 400px;
+  width: 30%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 24px 0 rgba(0,0,0,0.2);
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/place-bushwick.jpg);
+    background-size: cover;
+}
+.card-name {
+    text-align: center;
+    font-family: baskerville-display-pt, serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #0F1762;
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+
+.card-line {
+    width: 30px;
+    height: 4px;
+    background: #4c3eff;
+    margin: 20px auto;
+}
+
+#card-tags {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.card-gradient {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+    position: relative;
+    top: -50px;
+}
+
+/* HOME PAGE */
+
+.map {
+    margin-top: 100px;
+}
+
+h4 { 
+    color: #6D6D6D;
+    font-family: font-family: baskerville-display-pt, serif;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.map_svg {
+    display: block;
+    margin: 0 auto;
+    width= 610px;
+    height= 534px;
+}
+
+.map-nyc .map_svg {
+    width= 567px;
+    height= 449px;
+}
+
+.map_svg a, .map_svg a polygon,  .map_svg a .offices {
+    transition-property: fill;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+.map_svg a tspan {
+    fill: #0F1762;
+}
+
+.map_svg a:hover polygon, .map_svg a:hover tspan {
+    cursor: pointer;
+    fill: #4c3eff;
+}
+ .map_svg a:hover .offices {
+     fill: #FFFFFF;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 1400px) {
+    .homepage .rest-left {
+        width: 40%;
+    }
+    .homepage .rest-right {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .map svg.map-svg {
+        width: 100%;
+    }
+}
+    
+@media screen and (max-width: 1080px) {
+    .rest-page.homepage {
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 0px
+    }
+    .homepage .rest-right {
+       width: 100%; 
+    }
+    .homepage .rest-left {
+        width: 100%;
+    }
+    .homepage .rest-info {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .homepage .rest-top-bar {
+        display: none;
+    }
+    .homepage h4 {
+        display: none;
+    }
+    svg.map-svg {
+        width: 100%;
+        padding-top: -200px;
+    }
+}
+    
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .cards {
+        flex-direction: column;
+        text-align: center;
+    }
+    .card {
+      height: 400px;
+      width: 80%;
+      margin: auto;
+    }
+    .top-fold-content {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .area-name, .area-description, .area-info-icons {
+        width: 80%;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .area-description, .area-info-icons {
+       margin-top: 10px;
+    }
+
+}

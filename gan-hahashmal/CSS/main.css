@@ -1,0 +1,301 @@
+@font-face {
+    font-family: ProximaNova; 
+    src: url(https://web-assets.riskified.com/webfonts/29923C_7_0.ttf);
+}
+
+@font-face {
+    font-family: ProximaNova; 
+    src: url(https://web-assets.riskified.com/webfonts/29923C_8_0.ttf);
+    font-weight: bold;
+}
+.container {display: flex
+}
+
+.left-side {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+.right-side {
+    width: 50%;
+}
+
+.restaurant-photo {
+    height: 100vh;
+    background-image: url(../images/Taqueria.jpg);
+    background-size: cover;
+}
+
+.restaurant-info {
+    width: 322px;
+    margin-top: 95px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #0F1762;
+    font-size: 55px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    color: #4C3EFF;
+    font-size: 14px;
+    border-bottom: 3px solid #4c3eff;
+    padding-bottom: 8px;
+}
+
+.back-link {
+    font-family: 'Proxima Nova';
+    text-decoration: none;
+    color: #4C3EFF;
+}
+
+.back-link::before {
+    content: "";
+    display: inline-block;
+    background: url(../images/icon_back.svg) no-repeat;
+    margin-right: 6px;
+    width: 6px;
+    height: 9px;
+    background-size: contain;
+    
+    
+}
+
+.neighbourhood {
+    margin: 0px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    color: #4C3EFF;
+}
+
+.address {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+    margin: 0px;
+    
+}
+    
+.description {font-family: 'Proxima Nova';
+    font-weight: bold;
+    color: #0F1762;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left
+}
+
+
+
+.tags-wrap {
+    
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+
+.tag {
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    color: #585858;
+    font-size: 14px;
+    background-color: #F1F1F1;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.slider-img {
+    background-image: url(../images/cheap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    padding-right: 8px;
+    
+}
+
+.slider-img#slow {
+    background-image: url(../images/icon_slow.svg);
+}
+.slider-img#fast {
+    background-image: url(../images/icon_fast.svg);
+}
+.slider-img#expensive {
+    background-image: url(../images/icon_expensive.svg);
+}
+.slider-img#low {
+    background-image: url(../images/icon_no_room.svg);
+}
+.slider-img#high {
+    background-image: url(../images/icon_room.svg);
+    width: 36px;
+    padding-right: 0px;
+
+}
+
+.circle {
+    height: 6px;
+    width: 6px;
+    background-color: #D8D8D8;
+    border-radius: 20px;
+}
+
+#circle-highlight {
+    height: 6px;
+    width: 6px;
+    background-color: #4C3EFF;
+    border: 6px solid #b2b1e8;
+    
+}
+
+
+/* Neighberhood page */
+body {
+    margin: 0px;
+}
+
+.top-container {
+    padding-bottom: 265px; 
+    padding-top: 1px;
+    height: 416px;
+}
+
+
+a:hover {
+    color: #00b189;
+}
+
+.neighbourhood-name {
+    color: #FFFFFF;
+    width: 30%;
+   
+    
+}
+
+.n-info {
+    padding-top: 30px;
+    
+}
+
+.n-info p, #white-text {
+    color: #FFFFFF;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding-left: 25px;
+    background-position: 0px 3px;
+    margin-left: 25px;
+}
+
+.n-info, #white-text {
+    margin: 30px;
+    width: 30%;
+}
+
+#white-text.description {
+    padding-top:45px;
+    width: 415;
+    margin-left: 55px;
+}
+
+#distance {
+    background-image: url(../images/icon_distance.svg);
+}
+
+#crowded {
+    background-image: url(../images/icon_note.svg);
+}
+
+#eating {
+    background-image: url(../images/icon_eating.svg);
+}
+
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px;
+    max-width: 1060px;
+}
+
+.bg-color {
+    width: 100%;
+    background-color:#0F1762; 
+        
+}
+
+.bottom-container {
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    margin: -200px auto 200px auto;
+    padding: 0px 100px 100px 100px;
+    flex-wrap: wrap;
+}
+
+h2.restaurant-name {
+    height: 32px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: -20px;
+    margin-bottom: 10px;
+}
+
+.underline {
+    border-top: 4px solid #4c3eff;
+    width: 30px;
+    align-self: center;
+}
+
+a.restaurant-thumbnail:hover {
+    color: black;
+}
+
+.restaurant-thumbnail {
+    width: 30%;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    margin-bottom: 50px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.thumbnail-img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.restaurant-thumbnail .tags-wrap {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
