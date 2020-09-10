@@ -409,3 +409,29 @@ h4 {
     }
 
 }
+
+/* Pages inner responsiveness */
+@media screen and (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        text-align: center;
+    }
+    .card {
+      height: 400px;
+      width: 80%;
+      margin: auto;
+    }
+    .top-fold-content {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .area-name, .area-description, .area-info-icons {
+        width: 80%;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .area-description, .area-info-icons {
+       margin-top: 10px;
+    }
+
+}
