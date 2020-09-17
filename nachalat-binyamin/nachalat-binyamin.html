@@ -1,114 +1,106 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Nachalat Binyamin</title>
-        <meta name="Bushwick" content="">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="./CSS/main.css">
         <link rel=“stylesheet” href=“https://use.typekit.net/ghy0xjm.css”>
     </head>
     <body>
-        <div class="neighberhood">
-            <div class="top-fold">
-                <div class="top-fold-content">
-                    <div class="area-name">
-                        <div class="rest-top-bar">
-                            <a href="../index.html">Tel Aviv</a>
+        <div class="container-area">
+            <div class="header-bg">
+                <div class="header">
+                    <div class="area-nav">
+                        <div class="navigation">
+                            <a href="../index.html" class="back-link">Tel Aviv</a>
                         </div>
-                        <h1>Nachalat Binyamin</h1>
+                        <h1 class="area-name">Nachalat Binyamin</h1>
                     </div>
-                    <div class="area-description">a long street with magical fabric stores. recomanded to avoid on Tuesdays, when the artists market is on.</div>
-                    <div class="area-info-icons">
-                        <p class="area-icon-item">260 meters from Kalisher <br>
-                        550 meters from Psagot</p>
-                        <p class="area-icon-item" id="icon-warn">Crowded on Tuesdays.</p>
-                        <p class="area-icon-item" id="icon-food">32 eating options</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cards" id="cards-top">
-                <div class="card">
-                    <a href="bushwick.html">
-                        <!--<img src="/images/place-bushwick.jpg" alt="bushwick" height="200" width="320">-->
-                        <div class="card-img" id="card-bushwick"></div>
-                        <h2 class="card-name">Bushwick</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">outdoor seating</div>
-                            <div class="tag-item">posh</div>
-                            <div class="tag-item">specious</div>
-                            <div class="tag-item">vegan friendly</div>
-                            <div class="tag-item">small tables</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="mententen.html">
-                        <div class="card-img" id="card-mententen"></div>
-                        <h2 class="card-name">Men Ten Ten</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">authentic vibe</div>
-                            <div class="tag-item">vegan griendly</div>
-                            <div class="tag-item">popular</div>
-                            <div class="tag-item">crowded</div>
-                            <div class="tag-item">small tables</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="ma-pau.html">
-                        <div class="card-img" id="card-mapau"></div>
-                        <h2 class="card-name">Ma Pau</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">outdoor seating</div>
-                            <div class="tag-item">posh</div>
-                            <div class="tag-item">specious</div>
-                            <div class="tag-item">vegan friendly</div>
-                            <div class="tag-item">small tables</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="card">
-                        <a href="munnar.html">
-                            <div class="card-img" id="card-munnar"></div>
-                            <h2 class="card-name">Munnar</h2>
-                            <div class="card-line"></div>
-                            <div class="tags-group" id="card-tags">
-                                <div class="tag-item">outdoor seating</div>
-                                <div class="tag-item">spicy</div>
-                                <div class="tag-item">gluten free options</div>
-                                <div class="tag-item">vegan friendly</div>
+                    <p class="area-description">a long street with magical fabric stores. recomanded to avoid on Tuesdays, when the artists market is on.</p>
+                    <div class="area-info">
+                            <div class="info-line">
+                                <img src="images/icon_distance.svg" class="info-icon"/>
+                                <p class="info-text">260 meters from Kalisher<br>550 meters from Psagot</p>
                             </div>
-                            <div class="card-gradient"></div>
-                        </a>
+                            <div class="info-line">
+                                <img src="images/icon_note.svg" class="info-icon"/>
+                                <p class="info-text">Crowded on Tuesdays.</p>
+                            </div>
+                            <div class="info-line">
+                                <img src="images//icon_eating.svg" class="info-icon"/>
+                                <p class="info-text">32 eating options</p>
+                            </div>
                     </div>
-                <div class="card">
-                    <a href="nordinyo.html">
-                        <div class="card-img" id="card-nordinyo"></div>
-                        <h2 class="card-name">Nordinyo</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">no seating</div>
-                            <div class="tag-item">posh</div>
-                            <div class="tag-item">european</div>
-                            <div class="tag-item">not kosher</div>
-                            <div class="tag-item">gluten everything</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
                 </div>
-                <div class="card" id="invisible"></div>
             </div>
-        
+            <div class="thumbnails-wrap">
+                <a href="bushwick.html" class="restaurant-thumbnail">
+                    <img src="images/card-bushwick.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Bushwick</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">outdoor seating</div>
+                        <div class="tag">posh</div>
+                        <div class="tag">specious</div>
+                        <div class="tag">vegan friendly</div>
+                        <div class="tag">small tables</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="mententen.html" class="restaurant-thumbnail">
+                    <img src="images/card-mententen.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Men Ten Ten</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">authentic vibe</div>
+                        <div class="tag">vegan griendly</div>
+                        <div class="tag">popular</div>
+                        <div class="tag">crowded</div>
+                        <div class="tag">small tables</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="ma-pau.html" class="restaurant-thumbnail">
+                    <img src="images/card-mapau.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Ma Pau</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">outdoor seating</div>
+                        <div class="tag">posh</div>
+                        <div class="tag">specious</div>
+                        <div class="tag">vegan friendly</div>
+                        <div class="tag">small tables</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="munnar.html" class="restaurant-thumbnail">
+                    <img src="images/card-munar.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Munnar</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">outdoor seating</div>
+                        <div class="tag">spicy</div>
+                        <div class="tag">gluten free options</div>
+                        <div class="tag">vegan friendly</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="nordinyo.html" class="restaurant-thumbnail">
+                    <img src="images/card-nordinyo.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Nordinyo</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">no seating</div>
+                        <div class="tag">posh</div>
+                        <div class="tag">european</div>
+                        <div class="tag">not kosher</div>
+                        <div class="tag">gluten everything</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+            </div>
         </div>
     </body>
 </html>

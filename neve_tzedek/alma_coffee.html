@@ -1,128 +1,87 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
-        <link href=“https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext” rel=“stylesheet”>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Meshek Barzilay</title>
+        <title>Alma Café</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./CSS/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
-      <div class="container">
-        <div class="left-side">
-            <div class="restaurant-info">
-                <div class= navigation>
-                    <a href="neve_tzedek.html"  class="back-link"> 
-                          <img src="images/icon_back.png" class="left-arrow"> Neve Tzedek   
-                    </a> 
-                        <p class="address">  Shabazi St 55, Tel Aviv-Yafo</p>
-                </div>
-                <h1 class="restuarent-title">Alma Café</h1>
-                <p class="restaurant-text"> 
-               
-The Neve Tzedek branch of this chic little cafe perfectly captures the neighborhood’s artsy and elegant vibes
-If you find yourself strolling around Tel Aviv’s neighborhood of Neve Tzedek on a quiet Saturday afternoon (or any other day of the week), you must take the time to stop by Cafe Alma. This local little gem is a wonderful spot for a leisurely brunch 
-</p>
-                <div class="tag-warp">
-                     <div class="tag">breakfast</div>
-                     <div class="tag">lunch</div>
-                    <div class="tag">dinner</div>
-                     <div class="tag">out door sitting</div>
-                     <div class="tag">restaurant</div>
-                     <div class="tag">alcohol</div>
-                     <div class="tag">coffe</div>
-                </div>
-               
-                    <div class=slider>
-                        <img src="images/icon_slow.svg">
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle" > 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="highlight"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                           <img src="images/icon_fast.svg">
+        <div class="restaurant-container">
+            <div class="left-side">
+                <div class="restaurant-info">
+                    <div class="navigation">
+                        <a href="neve_tzedek.html" class="back-link">Neve Tzedek</a>
+                        <div class="address">Shabazi St 55, Tel Aviv-Yafo</div>
                     </div>
-                      <div class=slider>
-                        <img src="images/cheap.svg">
-                        <div class="circle"> 
+                    <h1 class="restaurant-title">Alma Café</h1>
+                    <p class="description">The Neve Tzedek branch of this chic little cafe perfectly captures the neighborhood’s artsy and elegant vibes. If you find yourself strolling around Tel Aviv’s neighborhood of Neve Tzedek on a quiet Saturday afternoon (or any other day of the week), you must take the time to stop by Cafe Alma. This local little gem is a wonderful spot for a leisurely brunch.</p>
+                    <div class="tags-wrap">
+                        <div class="tag">breakfast</div>
+                        <div class="tag">lunch</div>
+                        <div class="tag">dinner</div>
+                        <div class="tag">out door sitting</div>
+                        <div class="tag">restaurant</div>
+                        <div class="tag">alcohol</div>
+                        <div class="tag">coffe</div>
+                    </div>
+                    <div class="ranking-wrap">
+                        <div class="single-rank">
+                            <img src="images/icon_slow.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_fast.svg" class="rank-icon"/>
                         </div>
-                        <div class="circle" > 
+                        <div class="single-rank">
+                            <img src="images/cheap.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_expensive.svg" class="rank-icon"/>
                         </div>
-                        <div class="circle"> 
+                        <div class="single-rank">
+                            <img src="images/icon_no_room.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_room.svg" class="rank-icon"/>
                         </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="highlight"> 
-                        </div>
-                        <div class="ciecle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                           <img src="images/icon_expensive.svg">
-                          
-                     </div>
-                    <div class=slider>
-                        <img src="images/icon_no_room.svg">
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle" > 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="highlight"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                        <div class="circle"> 
-                        </div>
-                           <img src="images/icon_room.svg">
-                          
-                     </div>
-                    
-           
-            </div>    
-          </div>
-            
-        <div class="right-side">
-         
-                <img src="images/Israeli-Breakfast-main.jpg" class="restaurant-photo"/>
-       
-            
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="./images/Israeli-Breakfast-main.jpg" class="restaurant-photo"/>
+            </div>
         </div>
-          
-       </div>
-        
-        
     </body>
 </html>

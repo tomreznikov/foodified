@@ -1,83 +1,87 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
-        <link href=“https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext” rel=“stylesheet”>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mamman</title>
+        <title>Maman</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./CSS/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
+        <div class="restaurant-container">
             <div class="left-side">
-                    <div class="restaurant-info">
-                        <div class="navigation-box">
-                            <a href="nomad.html" class="back-link">NoMad</a>
-                            <p class="address">22 W 25th St</p>
+                <div class="restaurant-info">
+                    <div class="navigation">
+                        <a href="nomad.html" class="back-link">NoMad</a>
+                        <div class="address">22 W 25th St</div>
+                    </div>
+                    <h1 class="restaurant-title">Maman</h1>
+                    <p class="description">With a “you’re-in-Paris” feel, this cozy bakery/cafe offers tasty French and American bites for breakfast and lunch, plus sweet stuff à la its famous chocolate chunk cookie; the cute, shabby-chic space has rustic wood tables and a few outdoor seats. Try the warm egg bowls.</p>
+                    <div class="tags-wrap">
+                        <div class="tag">Cozy</div>
+                        <div class="tag">Desserts</div>
+                        <div class="tag">Coffee</div>
+                        <div class="tag">French</div>
+                        <div class="tag">Casual</div>
+                        <div class="tag">Outdoor Seating</div>
+                        <div class="tag">WiFi</div>
+                    </div>
+                    <div class="ranking-wrap">
+                        <div class="single-rank">
+                            <img src="images/icon_slow.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_fast.svg" class="rank-icon"/>
                         </div>
-                        <h1 class="restaurant-title">Maman</h1>
-                        <p class="description">With a “you’re-in-Paris” feel, this cozy bakery/cafe offers tasty French and American bites for breakfast and lunch, plus sweet stuff à la its famous chocolate chunk cookie; the cute, shabby-chic space has rustic wood tables and a few outdoor seats. Try the warm egg bowls.</p>
-                        <div class="tags-box">
-                            <div class="tag">Cozy</div>
-                            <div class="tag">Desserts</div>
-                            <div class="tag">Coffee</div>
-                            <div class="tag">French</div>
-                            <div class="tag">Casual</div>
-                            <div class="tag">Outdoor Seating</div>
-                            <div class="tag">WiFi</div>
+                        <div class="single-rank">
+                            <img src="images/cheap.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_expensive.svg" class="rank-icon"/>
                         </div>
-                         <div class="sliders">
-                        <div class="slider">
-                            <div class="slider-img" id="slow"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="fast"></div>
-                        </div>
-                        <div class="slider">
-                            <div class="slider-img" id="cheap"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="expensive"></div>
-                        </div>
-                        <div class="slider">
-                            <div class="slider-img" id="low"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="high"></div>
+                        <div class="single-rank">
+                            <img src="images/icon_no_room.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_room.svg" class="rank-icon"/>
                         </div>
                     </div>
-                    </div>
-             </div>
-            <div class="right-side">
-                <div class="restaurant-photo" id="maman-pic"></div>
+                </div>
             </div>
-        
+            <div class="right-side">
+                <img src="./images/maman_interior.jpg" class="restaurant-photo"/>
+            </div>
         </div>
     </body>
 </html>

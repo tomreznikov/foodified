@@ -1,112 +1,106 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Levinsky Market</title>
-        <meta name="Levinsky Market" content="">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="./CSS/main.css">
         <link rel=“stylesheet” href=“https://use.typekit.net/ghy0xjm.css”>
     </head>
     <body>
-        <div class="neighberhood">
-            <div class="top-fold">
-                <div class="top-fold-content">
-                    <div class="area-name">
-                        <div class="rest-top-bar">
-                            <a href="../index.html">Tel Aviv</a>
+        <div class="container-area">
+            <div class="header-bg">
+                <div class="header">
+                    <div class="area-nav">
+                        <div class="navigation">
+                            <a href="../index.html" class="back-link">Tel Aviv</a>
                         </div>
-                        <h1>Levinsky Market</h1>
+                        <h1 class="area-name">Levinsky Market</h1>
                     </div>
-                    <div class="area-description">The Levinsky Market is a gourmand’s  paradise with its range of flavors, spices, nuts, dried fruits and fusion cuisines. For every scent and spice in the shuk there’s a story of roots, struggle and nationality that deepens its impact. What unifies all these variables is a love for food. From growing it to preparing it, and cooking it to savoring it, the  Levinsky Market is filled with legends of migrating recipes and kitchens.</div>
-                    <div class="area-info-icons">
-                        <p class="area-icon-item">800 meters from Kalisher<br>300 meters from Psagot</p>
-                        <p class="area-icon-item" id="icon-warn">Crowded on weekends.</p>
-                        <p class="area-icon-item" id="icon-food">28 eating options</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cards" id="cards-top">
-                <div class="card">
-                    <a href="garger_hazahav.html">
-                        <div class="card-img" id="card-garger"></div>
-                        <h2 class="card-name">Garger haZahav</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">fast food</div>
-                            <div class="tag-item">mediterranean</div>
-                            <div class="tag-item">vegan</div>
-                            <div class="tag-item">nice for sharing</div>
-                            <div class="tag-item">crowded</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="kaymak.html">
-                        <div class="card-img" id="card-kaymak"></div>
-                        <h2 class="card-name">Cafe Kaymak</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">authentic vibe</div>
-                            <div class="tag-item">vegan griendly</div>
-                            <div class="tag-item">popular</div>
-                            <div class="tag-item">crowded</div>
-                            <div class="tag-item">small tables</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="saluf.html">
-                        <div class="card-img" id="card-saluf"></div>
-                        <h2 class="card-name">Saluf & Sons</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">casual</div>
-                            <div class="tag-item">yemeni food</div>
-                            <div class="tag-item">vegetarian friendly</div>
-                            <div class="tag-item">daily specials</div>
-                            <div class="tag-item">crowded</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="card">
-                        <a href="toni.html">
-                            <div class="card-img" id="card-toni"></div>
-                            <h2 class="card-name">Toni ve Ester</h2>
-                            <div class="card-line"></div>
-                            <div class="tags-group" id="card-tags">
-                                <div class="tag-item">outdoor seating</div>
-                                <div class="tag-item">spicy</div>
-                                <div class="tag-item">gluten free options</div>
-                                <div class="tag-item">vegan friendly</div>
+                    <p class="area-description">The Levinsky Market is a gourmand’s  paradise with its range of flavors, spices, nuts, dried fruits and fusion cuisines. For every scent and spice in the shuk there’s a story of roots, struggle and nationality that deepens its impact. What unifies all these variables is a love for food. From growing it to preparing it, and cooking it to savoring it, the  Levinsky Market is filled with legends of migrating recipes and kitchens.</p>
+                    <div class="area-info">
+                            <div class="info-line">
+                                <img src="images/icon_distance.svg" class="info-icon"/>
+                                <p class="info-text">800 meters from Kalisher<br>300 meters from Psagot</p>
                             </div>
-                            <div class="card-gradient"></div>
-                        </a>
+                            <div class="info-line">
+                                <img src="images/icon_note.svg" class="info-icon"/>
+                                <p class="info-text">Crowded on weekends.</p>
+                            </div>
+                            <div class="info-line">
+                                <img src="images//icon_eating.svg" class="info-icon"/>
+                                <p class="info-text">6 eating options</p>
+                            </div>
                     </div>
-                <div class="card">
-                    <a href="ouzeria.html">
-                        <div class="card-img" id="card-ouzeria"></div>
-                        <h2 class="card-name">Ouzeria</h2>
-                        <div class="card-line"></div>
-                        <div class="tags-group" id="card-tags">
-                            <div class="tag-item">no seating</div>
-                            <div class="tag-item">posh</div>
-                            <div class="tag-item">european</div>
-                            <div class="tag-item">not kosher</div>
-                            <div class="tag-item">gluten everything</div>
-                        </div>
-                        <div class="card-gradient"></div>
-                    </a>
                 </div>
-                <div class="card" id="invisible"></div>
             </div>
-        
+            <div class="thumbnails-wrap">
+                <a href="garger_hazahav.html" class="restaurant-thumbnail">
+                    <img src="images/garger%20hazahav.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Garger haZahav</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">fast food</div>
+                        <div class="tag">mediterranean</div>
+                        <div class="tag">vegan</div>
+                        <div class="tag">nice for sharing</div>
+                        <div class="tag">crowded</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="kaymak.html" class="restaurant-thumbnail">
+                    <img src="images/kaymak.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Cafe Kaymak</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">authentic vibe</div>
+                        <div class="tag">vegan griendly</div>
+                        <div class="tag">popular</div>
+                        <div class="tag">crowded</div>
+                        <div class="tag">small tables</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="saluf.html" class="restaurant-thumbnail">
+                    <img src="images/saluf.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Saluf & Sons</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">casual</div>
+                        <div class="tag">yemeni food</div>
+                        <div class="tag">vegetarian friendly</div>
+                        <div class="tag">daily specials</div>
+                        <div class="tag">crowded</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="toni.html" class="restaurant-thumbnail">
+                    <img src="images/toni.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Toni ve Ester</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">outdoor seating</div>
+                        <div class="tag">spicy</div>
+                        <div class="tag">gluten free options</div>
+                        <div class="tag">vegan friendly</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+                <a href="ouzeria.html" class="restaurant-thumbnail">
+                    <img src="images/ouzeria.jpg" class="thumbnail-img"/>
+                    <h2 class="restaurant-name">Ouzeria</h2>
+                    <div class="underline"></div>
+                    <div class="tags-wrap">
+                        <div class="tag">no seating</div>
+                        <div class="tag">posh</div>
+                        <div class="tag">european</div>
+                        <div class="tag">not kosher</div>
+                        <div class="tag">gluten everything</div>
+                    </div>
+                    <div class="box-feather"></div>
+                </a>
+            </div>
         </div>
     </body>
 </html>

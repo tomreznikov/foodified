@@ -1,94 +1,85 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
-        <link href=“https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext” rel=“stylesheet”>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Vong</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./CSS/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-    
-        <div class="left-side">
-            <div class="restaurant-info">
-                <div class="navigation">
-                    <a href="lev-hair.html" class="back-link"><img src="images/icon_back.png" width="6px" height="9px"> Lev Haeer</a>
-                <div class="address">
-                    15 Rothschild Blvd.
-                </div>
-                </div>
-            <h1 class="restaurant-title">Vong</h1>
-            <p class="description">The Vietnamese cuisine is the fresh corner of Southeast Asia. The Vietnamese meal aims for a table containing five colors, the five food ancestors, five flavors and activates the five senses. The influence of neighbouring China and India and the French colonial, created a fascinating cuisine of East and West, tradition and modernity.</p>
-                <div class="tags-wrap">
-                    <div class="tag">Vietnamese</div>
-                    <div class="tag">$$</div>
-                    <div class="tag">sharing</div>
-                    <div class="tag">vegan friendly</div>
-                    <div class="tag">gluten-free friendly</div>
-
-
-                </div>
-
-                    <div class="ranking">
-                            <img src="images/icon_slow.svg"> 
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="rank-circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                            <img src="images/icon_fast.svg"> 
-
+        <div class="restaurant-container">
+            <div class="left-side">
+                <div class="restaurant-info">
+                    <div class="navigation">
+                        <a href="lev-hair.html" class="back-link">Lev HaIr</a>
+                        <div class="address">15 Rothschild Blvd.</div>
                     </div>
-                
-                    <div class="ranking">
-                            <img src="images/cheap.svg"> 
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="rank-circle"></div>
-                        <div class="circle"></div>
-                            <img src="images/icon_expensive.svg"> 
-
+                    <h1 class="restaurant-title">Vong</h1>
+                    <p class="description">The Vietnamese cuisine is the fresh corner of Southeast Asia. The Vietnamese meal aims for a table containing five colors, the five food ancestors, five flavors and activates the five senses. The influence of neighbouring China and India and the French colonial, created a fascinating cuisine of East and West, tradition and modernity.</p>
+                    <div class="tags-wrap">
+                        <div class="tag">Vietnamese</div>
+                        <div class="tag">$$</div>
+                        <div class="tag">sharing</div>
+                        <div class="tag">vegan friendly</div>
+                        <div class="tag">gluten-free friendly</div>
                     </div>
-
-                    <div class="ranking">
-                            <img src="images/icon_no_room.svg"> 
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="rank-circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                            <img src="images/icon_room.svg"> 
-
+                    <div class="ranking-wrap">
+                        <div class="single-rank">
+                            <img src="images/icon_slow.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_fast.svg" class="rank-icon"/>
+                        </div>
+                        <div class="single-rank">
+                            <img src="images/cheap.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_expensive.svg" class="rank-icon"/>
+                        </div>
+                        <div class="single-rank">
+                            <img src="images/icon_no_room.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_room.svg" class="rank-icon"/>
+                        </div>
                     </div>
-
-
-            </div> 
-        </div> 
-            
-            
-<div class="right-side">
-    <div class="main-photo-vong"></div>
-     </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="./images/Vong%202.jpg" class="restaurant-photo"/>
+            </div>
         </div>
-        
     </body>
 </html>

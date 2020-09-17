@@ -1,85 +1,84 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Ma Pau</title>
-        <meta name="Ma Pau" content="">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link rel=“stylesheet” href=“https://use.typekit.net/ghy0xjm.css”>
-
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="./CSS/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
-        <div class="rest-page">
-            <div class="rest-left">
-                <div class="rest-info">
-                    <div class="rest-top-bar">
-                        <a href="nachalat-binyamin.html">Nachalat Binyamin</a>
-                        <div class="top-address">Nahalat Binyamin St 59</div>
+        <div class="restaurant-container">
+            <div class="left-side">
+                <div class="restaurant-info">
+                    <div class="navigation">
+                        <a href="nachalat-binyamin.html" class="back-link">Nachalat Binyamin</a>
+                        <div class="address">Nahalat Binyamin St 59</div>
                     </div>
-                    <!--<img src="images/place-bushwick.jpg" alt="eating" width="300px" height="420px;">
-                    <div class="img-test"></div>-->
-                    <h1>Ma Pau</h1>
-                    <p class="rest-description">
-                    Traditional Classic Food From Mumbai. Thali is always a great choise.
-                    </p>
-                    <div class="tags-group">
-                        <div class="tag-item">outdoor seating</div>
-                        <div class="tag-item">street noise</div>
-                        <div class="tag-item">indian cousine</div>
-                        <div class="tag-item">vegan friendly</div>
-                        <div class="tag-item">small tables</div>
+                    <h1 class="restaurant-title">Ma Pau</h1>
+                    <p class="description">Traditional Classic Food From Mumbai. Thali is always a great choise.</p>
+                    <div class="tags-wrap">
+                        <div class="tag">outdoor seating</div>
+                        <div class="tag">street noise</div>
+                        <div class="tag">indian cousine</div>
+                        <div class="tag">vegan friendly</div>
+                        <div class="tag">small tables</div>
                     </div>
-                    <div class="sliders">
-                        <div class="slider">
-                            <div class="slider-img" id="slow"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="fast"></div>
+                    <div class="ranking-wrap">
+                        <div class="single-rank">
+                            <img src="images/icon_slow.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_fast.svg" class="rank-icon"/>
                         </div>
-                        <div class="slider">
-                            <div class="slider-img" id="cheap"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="expensive"></div>
+                        <div class="single-rank">
+                            <img src="images/cheap.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_expensive.svg" class="rank-icon"/>
                         </div>
-                        <div class="slider">
-                            <div class="slider-img" id="low"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="high"></div>
+                        <div class="single-rank">
+                            <img src="images/icon_no_room.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_room.svg" class="rank-icon"/>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="rest-right">
-                <div class="rest-viz" id="mapau-img"></div>
+            <div class="right-side">
+                <img src="./images/place-mapau.jpg" class="restaurant-photo"/>
             </div>
         </div>
     </body>

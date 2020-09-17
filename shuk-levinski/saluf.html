@@ -1,82 +1,84 @@
 <!DOCTYPE html>
-<html>
-    
+<html> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Saluf & Sons</title>
-        <meta name="Saluf & Sons" content="">
-        <link href="css/main.css" rel="stylesheet" type="text/css">
-        <link rel=“stylesheet” href=“https://use.typekit.net/ghy0xjm.css”>
-
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="./CSS/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
     </head>
     <body>
-        <div class="rest-page">
-            <div class="rest-left">
-                <div class="rest-info">
-                    <div class="rest-top-bar">
-                        <a href="shuk-levinski.html">Levinsky Market</a>
-                        <div class="top-address">80 Nahalat Binyamin</div>
+        <div class="restaurant-container">
+            <div class="left-side">
+                <div class="restaurant-info">
+                    <div class="navigation">
+                        <a href="shuk-levinski.html" class="back-link">Levinsky Market</a>
+                        <div class="address">80 Nahalat Binyamin</div>
                     </div>
-                    <h1>Saluf & Sons</h1>
-                    <p class="rest-description">
-                    The authentic, richly flavorful Yemenite breads and stews at Saluf & Sons are served in a hip, casual atmosphere, bolstering the Levinsky Market reputation for spices and yuppies.</p>
-                    <div class="tags-group">
-                        <div class="tag-item">casual</div>
-                        <div class="tag-item">yemeni food</div>
-                        <div class="tag-item">vegetarian friendly</div>
-                        <div class="tag-item">daily specials</div>
-                        <div class="tag-item">crowded</div>
+                    <h1 class="restaurant-title long-title">Saluf & Sons</h1>
+                    <p class="description">The authentic, richly flavorful Yemenite breads and stews at Saluf & Sons are served in a hip, casual atmosphere, bolstering the Levinsky Market reputation for spices and yuppies.</p>
+                    <div class="tags-wrap">
+                        <div class="tag">casual</div>
+                        <div class="tag">yemeni food</div>
+                        <div class="tag">vegetarian friendly</div>
+                        <div class="tag">daily specials</div>
+                        <div class="tag">crowded</div>
                     </div>
-                    <div class="sliders">
-                        <div class="slider">
-                            <div class="slider-img" id="slow"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="fast"></div>
+                    <div class="ranking-wrap">
+                        <div class="single-rank">
+                            <img src="images/icon_slow.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_fast.svg" class="rank-icon"/>
                         </div>
-                        <div class="slider">
-                            <div class="slider-img" id="cheap"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="expensive"></div>
+                        <div class="single-rank">
+                            <img src="images/cheap.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_expensive.svg" class="rank-icon"/>
                         </div>
-                        <div class="slider">
-                            <div class="slider-img" id="low"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle" id="circle-highlight"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="slider-img" id="high"></div>
+                        <div class="single-rank">
+                            <img src="images/icon_no_room.svg" class="rank-icon"/>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="purple-dot">
+                                <div class="purple-dot-inner"></div>
+                            </div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <div class="gray-dot"></div>
+                            <img src="images/icon_room.svg" class="rank-icon"/>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="rest-right">
-                <div class="rest-viz" id="saluf-img"></div>
+            <div class="right-side">
+                <img src="./images/saluf.jpg" class="restaurant-photo"/>
             </div>
         </div>
     </body>
