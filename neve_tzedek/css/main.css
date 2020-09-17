@@ -1,359 +1,300 @@
 @font-face {
-    font-family: ProximaNova;
-    src: url(https://web-assets.riskified.com/webfonts/29923C_7_0.ttf);
+     font-family: ProximaNova;
+     src: url(https://web-assets.riskified.com/webfonts/29923C_7_0.ttf);
 }
-
-@font-face {
-    font-family: ProximaNova;
-    src: url(https://web-assets.riskified.com/webfonts/29923C_8_0.ttf);
-    font-weight: bold;
+ @font-face {
+     font-family: ProximaNova;
+     src: url(https://web-assets.riskified.com/webfonts/29923C_8_0.ttf);
+     font-weight: bold;
 }
-
-body {
-    margin: 0px !important;
+ body {
+     margin: 0px !important;
 }
-
-h1 {
-    font-family: baskerville-display-pt, serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 65px;
-    line-height: 75px;
+ h1 {
+     font-family: baskerville-display-pt, serif;
+     font-weight: 700;
+     font-style: italic;
+     font-size: 65px;
+     line-height: 75px;
 }
-
-h2 {
-    font-family: baskerville-display-pt, serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 36px;
-    line-height: 44px;
+ h2 {
+     font-family: baskerville-display-pt, serif;
+     font-weight: 700;
+     font-style: italic;
+     font-size: 36px;
+     line-height: 44px;
 }
-
-p {
-    font-family: 'ProximaNova', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    text-rendering: optimizeLegibility !important;
+ p {
+     font-family: 'ProximaNova', sans-serif;
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 21px;
+     text-rendering: optimizeLegibility !important;
 }
-
 /* restaurant page */
-
-.restaurant-container {
-    display: flex;
+ .restaurant-container {
+     display: flex;
 }
-
-.left-side {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-    overflow-y: auto;
+ .left-side {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 100px;
+     overflow-y: auto;
 }
-
-.right-side {
-    width: 50%;
-    display: flex;
-    align-items: center;
+ .right-side {
+     width: 50%;
+     display: flex;
+     align-items: center;
 }
-
-.restaurant-photo {
-    height: 100vh;
-    width: auto;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
+ .restaurant-photo {
+     height: 100vh;
+     width: auto;
+     background-size: cover;
+     position: fixed;
+     top: 0;
+     margin-left: auto;
+     margin-right: auto;
 }
-
-.restaurant-info {
-    width: 322px;
-    margin-top: 95px;
+ .restaurant-info {
+     width: 322px;
+     margin-top: 95px;
 }
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'ProximaNova', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    border-bottom: 4px solid #4c3eff;
-    padding-bottom: 8px;
+ .navigation {
+     display: flex;
+     justify-content: space-between;
+     font-family: 'ProximaNova', sans-serif;
+     font-weight: bold;
+     font-size: 14px;
+     border-bottom: 4px solid #4c3eff;
+     padding-bottom: 8px;
 }
-
-.back-link {
-    color: #4c3eff;
-    text-decoration: none;
+ .back-link {
+     color: #4c3eff;
+     text-decoration: none;
 }
-
-.back-link:hover {
-    color: #302be2;
+ .back-link:hover {
+     color: #302be2;
 }
-
-.back-link::before {
-    content: "";
-    display: inline-block;
-    background: url(../images/icon_back.png) no-repeat;
-    margin-right: 6px;
-    width: 6px;
-    height: 9px;
-    background-size: contain;
+ .back-link::before {
+     content: "";
+     display: inline-block;
+     background: url(../images/icon_back.png) no-repeat;
+     margin-right: 6px;
+     width: 6px;
+     height: 9px;
+     background-size: contain;
 }
-
-h1.restaurant-title {
-    color: #0F1762;
-    margin-bottom: 45px;
+ h1.restaurant-title {
+     color: #0F1762;
+     margin-bottom: 45px;
 }
-
-.long-title {
-    font-size: 44px;
-    line-height: 52px;
+ .long-title {
+     font-size: 44px;
+     line-height: 52px;
 }
-
-p.description {
-    color: #0F1762;
-    margin-bottom: 56px;
+ p.description {
+     color: #0F1762;
+     margin-bottom: 56px;
 }
-
-.tags-wrap {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
+ .tags-wrap {
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     margin-bottom: 50px;
 }
-
-.tag {
-    margin: 0px 10px 10px 0px;
-    padding: 5px 10px;
-    background-color: #F1F1F1;
-    border-radius: 20px;
-    font-family: 'ProximaNova', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #585858;
+ .tag {
+     margin: 0px 10px 10px 0px;
+     padding: 5px 10px;
+     background-color: #F1F1F1;
+     border-radius: 20px;
+     font-family: 'ProximaNova', sans-serif;
+     font-size: 14px;
+     line-height: 20px;
+     color: #585858;
 }
-
-.single-rank {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+ .single-rank {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 30px;
 }
-
-.rank-icon {
-    width: 30px;
-    height: 100%;
+ .rank-icon {
+     width: 30px;
+     height: 100%;
 }
-
-.gray-dot {
-    width: 6px;
-    height: 6px;
-    background-color: #D8D8D8;
-    border-radius: 3px;
+ .gray-dot {
+     width: 6px;
+     height: 6px;
+     background-color: #D8D8D8;
+     border-radius: 3px;
 }
-
-.purple-dot {
-    width: 16px;
-    height: 16px;
-    background-color: rgba(76,62,255,0.5);
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center
+ .purple-dot {
+     width: 16px;
+     height: 16px;
+     background-color: rgba(76,62,255,0.5);
+     border-radius: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center 
 }
-
-.purple-dot-inner {
-    width: 6px;
-    height: 6px;
-    background-color: #4c3eff;
-    border-radius: 3px;
+ .purple-dot-inner {
+     width: 6px;
+     height: 6px;
+     background-color: #4c3eff;
+     border-radius: 3px;
 }
-
 /* neighborhood page */
-
-.header-bg {
-    width: 100%;
-    background-color: #0F1762;
-    color: #fff;
+ .header-bg {
+     width: 100%;
+     background-color: #0F1762;
+     color: #fff;
 }
-
-.header {
-    max-width: 1060px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 100px 100px 300px;
-    margin: auto;
+ .header {
+     max-width: 1060px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 100px 100px 300px;
+     margin: auto;
 }
-
-.area-nav {
-    width: 30%;
+ .area-nav {
+     width: 30%;
 }
-
-h1.area-name {
-    color: #fff;
+ h1.area-name {
+     color: #fff;
 }
-
-.area-description {
-    padding-top: 70px;
-    width: 30%;
+ .area-description {
+     padding-top: 70px;
+     width: 30%;
 }
-
-.area-info {
-    padding-top: 84px;
-    width: 30%;
+ .area-info {
+     padding-top: 84px;
+     width: 30%;
 }
-
-.info-line {
-    display: flex;
-    align-items: baseline;
-    margin-bottom: 10px;
+ .info-line {
+     display: flex;
+     align-items: baseline;
+     margin-bottom: 10px;
 }
-
-.info-icon {
-    margin-right: 12px;
+ .info-icon {
+     margin-right: 12px;
 }
-
-.info-text {
-    margin: 0px;
+ .info-text {
+     margin: 0px;
 }
-
-.thumbnails-wrap {
-    max-width: 1060px;
-    display: flex;
-    justify-content: space-between;
-    margin: -200px auto 0px auto;
-    padding: 0px 100px 100px 100px;
-    flex-wrap: wrap;
+ .thumbnails-wrap {
+     max-width: 1060px;
+     display: flex;
+     justify-content: space-between;
+     margin: -200px auto 0px auto;
+     padding: 0px 100px 100px 100px;
+     flex-wrap: wrap;
 }
-
-.restaurant-thumbnail {
-    height: 400px;
-    width: 30%;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: column;
-    margin-bottom: 50px;
-    overflow: hidden;
-    text-decoration: none;
-    position: relative;
+ .restaurant-thumbnail {
+     height: 400px;
+     width: 30%;
+     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+     display: flex;
+     justify-content: flex-start;
+     flex-flow: column;
+     margin-bottom: 50px;
+     overflow: hidden;
+     text-decoration: none;
+     position: relative;
 }
-
-.thumbnail-img {
-    object-fit: cover;
-    height: 200px;
-    width: 100%;
+ .thumbnail-img {
+     object-fit: cover;
+     height: 200px;
+     width: 100%;
 }
-
-h2.restaurant-name {
-    color: #000;
-    margin: 30px 20px 20px 20px;
-    text-align: center;
+ h2.restaurant-name {
+     color: #000;
+     margin: 30px 20px 20px 20px;
+     text-align: center;
 }
-
-.underline {
-    border-top: 4px solid #4c3eff;
-    width: 30px;
-    align-self: center;
+ .underline {
+     border-top: 4px solid #4c3eff;
+     width: 30px;
+     align-self: center;
 }
-
-.restaurant-thumbnail .tags-wrap {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
+ .restaurant-thumbnail .tags-wrap {
+     margin: 20px;
+     display: flex;
+     justify-content: center;
 }
-
-.box-feather {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #FFFFFF 100%);
-    height: 90px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+ .box-feather {
+     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #FFFFFF 100%);
+     height: 90px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
 }
-
-
 /* responsivness */
-
-@media screen and (max-width: 1200px) and (min-width: 768px) {
-    
-    .restaurant-thumbnail {
-        height: 400px;
-        width: 45%;
+ @media screen and (max-width: 1200px) and (min-width: 768px) {
+     .restaurant-thumbnail {
+         height: 400px;
+         width: 45%;
     }
 }
-
-@media screen and (max-width: 768px) {
-    
-    .restaurant-container {
-        display: flex;
-        flex-direction: column-reverse;
+ @media screen and (max-width: 768px) {
+     .restaurant-container {
+         display: flex;
+         flex-direction: column-reverse;
     }
-    
-    .left-side {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 100px;
+     .left-side {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         margin-bottom: 100px;
     }
-
-    .right-side {
-        width: 100%;
-        position: relative;
-        height: 200px;
-        overflow: hidden;
-        display: flex;
+     .right-side {
+         width: 100%;
+         position: relative;
+         height: 200px;
+         overflow: hidden;
+         display: flex;
     }
-
-    .restaurant-photo {
-        height: auto;
-        width: 100%;
-        background-size: cover;
-        position: relative;
+     .restaurant-photo {
+         height: auto;
+         width: 100%;
+         background-size: cover;
+         position: relative;
     }
-
-    .restaurant-info {
-        width: 322px;
-        margin-top: 50px;
+     .restaurant-info {
+         width: 322px;
+         margin-top: 50px;
     }
-    
-    .thumbnails-wrap {
-        flex-direction: column;
-        text-align: center;
-        padding: 0px 20px 100px 20px;
-        margin-top: -260px;
+     .thumbnails-wrap {
+         flex-direction: column;
+         text-align: center;
+         padding: 0px 20px 100px 20px;
+         margin-top: -260px;
     }
-    .restaurant-thumbnail {
-        height: 400px;
-        width: 80%;
-        margin: 0px auto 50px auto;
+     .restaurant-thumbnail {
+         height: 400px;
+         width: 80%;
+         margin: 0px auto 50px auto;
     }
-    
-    .header {
-        flex-direction: column;
-        margin-bottom: 60px;
-        padding-bottom: 200px;
-        padding: 100px 20px 250px;
+     .header {
+         flex-direction: column;
+         margin-bottom: 60px;
+         padding-bottom: 200px;
+         padding: 100px 20px 250px;
     }
-    
-    h1.area-name {
-        margin-bottom: 30px;
+     h1.area-name {
+         margin-bottom: 30px;
     }
-    
-   .area-nav, .area-description, .area-info {
-        width: 80%;
-        margin-bottom: 10px;
-        margin: auto;
+     .area-nav, .area-description, .area-info {
+         width: 80%;
+         margin-bottom: 10px;
+         margin: auto;
     }
-    
-    .area-info {
-        padding-top: 30px;
+     .area-info {
+         padding-top: 30px;
     }
-    
-    .area-description {
-        padding-top: 0px;
+     .area-description {
+         padding-top: 0px;
     }
-
 }
