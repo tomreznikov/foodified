@@ -184,25 +184,27 @@
  .info-text {
      margin: 0px;
 }
- .thumbnails-wrap {
-     max-width: 1060px;
-     display: flex;
-     justify-content: space-between;
-     margin: -200px auto 0px auto;
-     padding: 0px 100px 100px 100px;
-     flex-wrap: wrap;
+.thumbnails-wrap {
+    max-width: 1060px;
+    display: flex;
+    justify-content: flex-start;
+    margin: -200px auto 0px auto;
+    padding: 0px 50px 100px 75px;
+    flex-wrap: wrap;
 }
- .restaurant-thumbnail {
-     height: 400px;
-     width: 30%;
-     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-     display: flex;
-     justify-content: flex-start;
-     flex-flow: column;
-     margin-bottom: 50px;
-     overflow: hidden;
-     text-decoration: none;
-     position: relative;
+
+.restaurant-thumbnail {
+    height: 400px;
+    width: 30%;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    margin-bottom: 50px;
+    margin-right: 35px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
 }
  .thumbnail-img {
      object-fit: cover;
@@ -230,6 +232,13 @@
      width: 100%;
      position: absolute;
      bottom: 0;
+}
+a.address {
+    color: black;
+    text-decoration: none;
+}
+a.address:hover {
+    color: #4c3eff;
 }
 /* responsivness */
  @media screen and (max-width: 1200px) and (min-width: 768px) {

@@ -223,9 +223,9 @@ h1.area-name {
 .thumbnails-wrap {
     max-width: 1060px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: -200px auto 0px auto;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 50px 100px 75px;
     flex-wrap: wrap;
 }
 
@@ -237,6 +237,7 @@ h1.area-name {
     justify-content: flex-start;
     flex-flow: column;
     margin-bottom: 50px;
+    margin-right: 35px;
     overflow: hidden;
     text-decoration: none;
     position: relative;
@@ -273,7 +274,13 @@ h2.restaurant-name {
     position: absolute;
     bottom: 0;
 }
-
+a.address {
+    color: black;
+    text-decoration: none;
+}
+a.address:hover {
+    color: #4c3eff;
+}
 
 /* responsivness */
 
