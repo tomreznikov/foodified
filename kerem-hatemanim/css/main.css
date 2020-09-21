@@ -283,6 +283,12 @@ p.description {
 a.address {
     color: black;
     text-decoration: none;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 28px;
+    margin-bottom: auto;
 }
 a.address:hover {
     color: #4c3eff;
