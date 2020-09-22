@@ -261,7 +261,7 @@ h2.restaurant-name {
     align-self: center;
 }
 
-.restaurant-thumbnail .tags-wrap {
+.restaurant-thumbnail .tags-wrap, .tags-wrap {
     margin: 20px;
     display: flex;
     justify-content: center;
